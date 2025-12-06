@@ -1,0 +1,99 @@
+/* GLOBAL */
+body {
+  background: lightgoldenrodyellow;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #e6edf3;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+/* TITLE */
+.dashboard-title {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  text-align: center;
+  background: linear-gradient(90deg, brown, brown);
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* CARDS ROW */
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* STAT CARD */
+.statCard {
+  background: #5b6439;
+  width: 240px;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  text-align: center;
+  border: 1px solid #5b6439;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-6px);
+  border-color: #6a7344;
+}
+
+.statTitle {
+  font-size: 15px;
+  color: white;
+}
+
+.statValue {
+  font-size: 34px;
+  font-weight: 800;
+  color: white;
+}
+
+/* CHART */
+.chartBox {
+  background: #5b6439;
+  padding: 25px;
+  border-radius: 18px;
+  border: 1px solid #5b6439;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+/* SUBTITLE */
+.subtitle {
+  font-size: 26px;
+  font-weight: 700;
+  color: brown;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* CUSTOMER LIST */
+.customerList {
+  background: #5b6439;
+  padding: 20px;
+  border-radius: 14px;
+  width: 350px;
+  margin: auto;
+  border: 1px solid #5b6439;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+.customerItem {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+  font-size: 15px;
+  color: #5b6439;
+}
