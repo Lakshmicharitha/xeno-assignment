@@ -1,6 +1,0 @@
-[build]
-builder = "NIXPACKS"
-buildCommand = "cd backend && npm install"
-
-[start]
-startCommand = "cd backend && node src/app.js"
