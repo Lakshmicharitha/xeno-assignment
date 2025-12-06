@@ -85,3 +85,7 @@ This project demonstrates:
 4.Shopify API integration
 5.Analytics + dashboards
 6.Clean architecture
+
+⚠️ Deployed frontend will show zeros because backend is not hosted.
+The backend runs only locally (localhost:5000). 
+When running locally, all metrics load correctly as shown in the video demo.
