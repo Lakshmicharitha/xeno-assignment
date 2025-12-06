@@ -1,9 +1,0 @@
-[build]
-builder = "NIXPACKS"
-
-[build.nixpacksPlan]
-phases = { setup = { commands = ["cd backend"] }}
-build = { commands = ["cd backend && npm install"] }
-
-[start]
-cmd = "cd backend && npm run start"
